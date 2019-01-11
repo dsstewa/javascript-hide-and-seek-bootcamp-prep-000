@@ -26,11 +26,11 @@ function increaseRankBy(n) {
 
 //      <ul class="ranked-list">
 //      <li>1</li>
-        <li>2</li>
-      </ul>
+//        <li>2</li>
+//      </ul>
 
-      <ul class="ranked-list">
-        <li>12</li>
-        <li>11</li>
+//      <ul class="ranked-list">
+//        <li>12</li>
+//        <li>11</li>
         <li>10</li>
       </ul>
