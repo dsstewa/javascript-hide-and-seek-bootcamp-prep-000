@@ -31,7 +31,7 @@ function deepestChild() {
   var i = node.children[0]
   var e = i.children[0]
   var d = e.children[0]
-  console.log(d.length)
+  console.log(d.children.length)
   return d.children[0]
 
 
