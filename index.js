@@ -30,7 +30,7 @@ function deepestChild() {
     final = final.children[0]
     
   }
-  
+  return final
  
   
   
