@@ -24,7 +24,7 @@ for (var i = 0; i < mainL; i++) {
 function deepestChild() {
   var node = document.getElementById('grand-node')
   var i = 0 
-  return node.children[1]
+  return node.children[0][0][0]
 
 
  //while (node.chilren.length > 0) {
