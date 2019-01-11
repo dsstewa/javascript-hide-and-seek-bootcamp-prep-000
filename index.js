@@ -31,8 +31,11 @@ function deepestChild() {
   var e = i.children[0]
   var d = e.children[0]
 console.log(d.children.length)
-
-
+if (d.children.length === 1) {
+  return true
+} else {
+  return false
+}
  
   
   return d.children[0]
