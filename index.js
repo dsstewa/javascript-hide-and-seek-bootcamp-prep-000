@@ -15,7 +15,7 @@ function increaseRankBy(n) {
  
  
  
-  return main.children[0]
+  return main.children[3]
   
 }
 
