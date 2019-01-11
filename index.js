@@ -15,9 +15,9 @@ mainL = document.getElementsByClassName('ranked-list').length
 console.log(mainL)
 var li = document.getElementsByClassName('ranked-list')[0]
 console.log(li.children[0])
+var update = li.children[0]
 
-
-
+update.
 
 // for (var i = 0; i < mainL; i++) {
 //   var li = document.getElementsByClassName('ranked-list')[i]
