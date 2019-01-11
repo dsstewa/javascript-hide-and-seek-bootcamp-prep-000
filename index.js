@@ -12,7 +12,12 @@ function nestedTarget() {
 var main = []
 function increaseRankBy(n) {
 mainL = document.getElementsByClassName('ranked-list').length
-for ()
+for (var i = 0; i , mainL; i++) {
+  
+  
+  
+  
+}
 var li = document.getElementsByClassName('ranked-list')[0]
 
 var update = li.children[0]
