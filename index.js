@@ -15,7 +15,7 @@ function increaseRankBy(n) {
  for (var i = 0; i < mainL; i++) {
    var li = document.getElementsByClassName('ranked-list')[i]
    li.textContent = li.children + 1
-   
+   x
  }
  
  
