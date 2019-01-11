@@ -11,12 +11,19 @@ function nestedTarget() {
 }
 var main = []
 function increaseRankBy(n) {
- mainL = document.getElementsByClassName('ranked-list').length
- for (var i = 0; i < mainL; i++) {
-   var li = document.getElementsByClassName('ranked-list')[i]
-  li.textContent[0] = li.children[0] + 1
+mainL = document.getElementsByClassName('ranked-list').length
+console.log(mainL)
+var li = document.getElementsByClassName('ranked-list')[0]
+console.log(li.children)
+
+
+
+
+// for (var i = 0; i < mainL; i++) {
+//   var li = document.getElementsByClassName('ranked-list')[i]
+ // li.textContent[0] = li.children[0] + 1
   
-  return li.children[0]
+ // return li.children[0]
    
  }
  
