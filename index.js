@@ -25,9 +25,9 @@ function deepestChild() {
   var node = document.getElementById('grand-node')
   
   if (node.length === 1) {
-    true
+    return true
   } else {
-    false
+    return false
   }
   
   
