@@ -26,7 +26,7 @@ function deepestChild() {
   var i = node.children[0]
   var e = i.children[0]
   var d = e.children[0]
-  return d.children[0].innerHTML
+  return d.children[0]
 
 
  //while (node.chilren.length > 0) {
