@@ -12,11 +12,11 @@ function nestedTarget() {
 var main = []
 function increaseRankBy(n) {
 mainL = document.getElementsByClassName('ranked-list').length
-console.log(mainL)
+for ()
 var li = document.getElementsByClassName('ranked-list')[0]
-console.log(li.children[0])
+
 var update = li.children[0]
-console.log(update)
+
 
 update.textContent = parseInt(update.textContent,10) + 1
 
