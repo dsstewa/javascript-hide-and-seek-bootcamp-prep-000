@@ -24,7 +24,7 @@ for (var i = 0; i < mainL; i++) {
 function deepestChild() {
   var node = document.getElementById('grand-node')
   var i = 0 
-  return node.children[0][0][0]
+  return d
 
 
  //while (node.chilren.length > 0) {
@@ -50,45 +50,4 @@ function deepestChild() {
    //   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function find(array, criteriaFn) {
-  let current = array
-  let next = []
-
-  while (current) {
-    if (criteriaFn(current)) {
-      return current
-    }
-    if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
-        next.push(current[i])
-      }
-    }
-    current = next.shift()
-  }
-  return null
-}
 
