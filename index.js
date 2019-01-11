@@ -24,11 +24,6 @@ for (var i = 0; i < mainL; i++) {
 function deepestChild() {
   var node = document.getElementById('grand-node')
   
-  if (node.length === 1) {
-    return true
-  } else {
-    return false
-  }
   
   
   
