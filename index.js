@@ -15,7 +15,7 @@ function increaseRankBy(n) {
  
  
  
-  return document.getElementsByClassName('ranked-list').length
+  return main.children[1]
   
 }
 
