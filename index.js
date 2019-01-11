@@ -22,13 +22,12 @@ for (var i = 0; i < mainL; i++) {
 }
 
 function deepestChild() {
+  var node = document.getElementById('grand-node')
   
   
   
   
-  
-  
-  return document.getElementById('grand-node')
+  return node.children.length
   
 }
 
