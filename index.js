@@ -30,12 +30,12 @@ function deepestChild() {
   var i = node.children[0]
   var e = i.children[0]
   var d = e.children[0]
-console.log(d.children.length)
+console.log(d.children.children.length)
 //if (d.children.children.length === 1) {
 //  return true
 //} else {
-  return false
-}
+ // return false
+//}
  
   
   return d.children[0]
