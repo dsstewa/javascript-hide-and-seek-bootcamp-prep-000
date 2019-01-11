@@ -23,11 +23,13 @@ for (var i = 0; i < mainL; i++) {
 
 function deepestChild() {
   var node = document.getElementById('grand-node')
+ while (node.chilren.lenght > 0) {
+   
+ }
+ 
   
   
-  
-  
-  return node.children[1]
+  return node.children[]
   
 }
 
