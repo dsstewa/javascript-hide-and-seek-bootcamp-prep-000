@@ -13,6 +13,8 @@ var main = []
 function increaseRankBy(n) {
  main = document.getElementsByClassName('ranked-list')[0]
  
+ 
+ 
   return document.getElementsByClassName('ranked-list').length
   
 }
