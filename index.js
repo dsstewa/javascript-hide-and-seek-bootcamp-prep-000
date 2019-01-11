@@ -15,7 +15,7 @@ mainL = document.getElementsByClassName('ranked-list').length
 for (var i = 0; i < mainL; i++) {
   var li = document.getElementsByClassName('ranked-list')[i]
   for (var d = 0; d < li.children.length; d++) {
-    
+    var update = li.children[d]
     
     
   }
@@ -24,7 +24,7 @@ for (var i = 0; i < mainL; i++) {
 }
 
 
-var update = li.children[0]
+
 
 
 update.textContent = parseInt(update.textContent,10) + 1
