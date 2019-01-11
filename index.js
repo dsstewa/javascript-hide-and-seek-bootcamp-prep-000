@@ -22,7 +22,7 @@ for (var i = 0; i < mainL; i++) {
 }
 
 function deepestChild() {
-  
+  return document.getElementsByClassName('grand-node').length
   
 }
 
