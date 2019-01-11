@@ -23,8 +23,9 @@ for (var i = 0; i < mainL; i++) {
 
 function deepestChild() {
   var node = document.getElementById('grand-node')
-  var i = 0 
-  return node.querySelector('div')
+  var i = node.children[0]
+  
+  return i.children[0]
 
 
  //while (node.chilren.length > 0) {
