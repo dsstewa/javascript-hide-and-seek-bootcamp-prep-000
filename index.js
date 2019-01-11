@@ -16,7 +16,7 @@ console.log(mainL)
 var li = document.getElementsByClassName('ranked-list')[0]
 console.log(li.children[0])
 var update = li.children[0]
-console.log(update[0])
+console.log(update)
 return parseInt(update)
 //update.textContent = parseInt(update)
 
