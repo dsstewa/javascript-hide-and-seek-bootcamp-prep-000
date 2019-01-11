@@ -19,10 +19,9 @@ for (var i = 0; i < mainL; i++) {
     update.textContent = parseInt(update.textContent,10) + n
   }
 }
-
 }
 
-
+function 
 
 
 
