@@ -27,7 +27,7 @@ function deepestChild() {
   var final = node.children[0] 
   
   while (final.children.length === 1) {
-    
+    final = final.children[0]
     
   }
   
