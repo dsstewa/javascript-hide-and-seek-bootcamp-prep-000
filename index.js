@@ -22,7 +22,7 @@ function increaseRankBy(n) {
 //      <ul class="unranked-list">
 //      <li>2</li>
 //      <li>5</li>
-//        <li>4</li>
+//      <li>4</li>
 //      </ul>
 
 //      <ul class="ranked-list">
