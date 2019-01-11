@@ -25,14 +25,14 @@ console.log(li.children)
   
  // return li.children[0]
    
- }
- 
- 
- main = document.getElementsByClassName('ranked-list')[1]
  
  
  
-  return main.children[2]
+// main = document.getElementsByClassName('ranked-list')[1]
+ 
+ 
+ 
+ // return main.children[2]
   
 }
 
