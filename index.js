@@ -31,26 +31,13 @@ function deepestChild() {
     
   }
   
-  
-  
-  
-  
-  
-  
-  var i = node.children[0]
-  var e = i.children[0]
-  var d = e.children[0]
-console.log(d.children.length)
-var w = d.children[0]
-
-if (w.children.length === 1) {
-  return true
-} else {
-  return false
-}
  
   
-  return d.children[0]
+  
+  
+  
+  
+ 
 
 
  //while (node.chilren.length > 0) {
