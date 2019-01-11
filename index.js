@@ -38,11 +38,7 @@ function deepestChild() {
 console.log(d.children.length)
 
 
- if (d.children.length === 0) {
-    return true
-  } else {
-    return false
-  }
+ 
   
   return d.children[0]
 
