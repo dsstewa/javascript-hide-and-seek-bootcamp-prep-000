@@ -32,6 +32,8 @@ function deepestChild() {
   var e = i.children[0]
   var d = e.children[0]
   console.log(d.children.length)
+  var o = d.children[0]
+  console.log(o.children[0].length)
   return d.children[0]
 
 
