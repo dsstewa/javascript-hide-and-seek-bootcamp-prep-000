@@ -6,7 +6,7 @@ var test = []
 
 function nestedTarget() {
  
-   return document.querySelector('div.target')
+   return document.querySelector('div.target').length
    
 }
 
