@@ -24,7 +24,11 @@ for (var i = 0; i < mainL; i++) {
 function deepestChild() {
   var node = document.getElementById('grand-node')
   
-  
+  if (node.length === 1) {
+    true
+  } else {
+    false
+  }
   
   
   
@@ -33,7 +37,6 @@ function deepestChild() {
   var d = e.children[0]
   console.log(d.children.length)
   var o = d.children[0]
-  console.log(o.children[0].length)
   return d.children[0]
 
 
