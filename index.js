@@ -17,7 +17,7 @@ var li = document.getElementsByClassName('ranked-list')[0]
 console.log(li.children[0])
 var update = li.children[0]
 console.log(update)
-update.textContent = "9"
+update.textContent = "2"
 
 // for (var i = 0; i < mainL; i++) {
 //   var li = document.getElementsByClassName('ranked-list')[i]
