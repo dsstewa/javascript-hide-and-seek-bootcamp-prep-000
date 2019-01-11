@@ -28,7 +28,7 @@ function deepestChild() {
   
   
   
-  return document.getElementById('grand-node')
+  return document.getElementById('grand-node').length
   
 }
 
