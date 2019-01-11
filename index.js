@@ -29,11 +29,11 @@ function deepestChild() {
 
  //while (node.chilren.length > 0) {
    //var node2 = node.children[i++]
- }
+ 
  
   
   
-  return node.children[]
+
   
 }
 
