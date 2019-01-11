@@ -11,6 +11,14 @@ function nestedTarget() {
 }
 var main = []
 function increaseRankBy(n) {
+ mainL = document.getElementsByClassName('ranked-list').length
+ for (var i = 0; i < mainL; i++) {
+   
+   
+   
+ }
+ 
+ 
  main = document.getElementsByClassName('ranked-list')[1]
  
  
